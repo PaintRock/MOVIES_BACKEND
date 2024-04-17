@@ -7,17 +7,12 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.logging.Logger;
 
 @Service
 public class MovieService {
-//    @Autowired
-//    private Logger logger;
     @Autowired
     private MovieRepository movieRepository;
-
     public List<Movie> allMovies() {
-//        logger.info("entering allMovies");
         return movieRepository.findAll();
     }
 
