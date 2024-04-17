@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "mongodb": "^6.5.0",
+    "springboot": "^0.1.0"
+  },
+  "name": "movies_backend",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
